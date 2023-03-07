@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+html {
+    font-size: 125%;
+}
+
+h1 {
+    font-family: $headerFont;
+    font-size: 3.5rem;
+}
+
+body {
+    font-family: $bodyFont;
+}
+
+input {
+    font-family: $bodyFont;
+    font-weight: 5rem;
+}
+
+button {
+    font-family: $bodyFont;
+}
