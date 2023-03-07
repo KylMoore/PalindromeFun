@@ -1,0 +1,27 @@
+@use "./variables" as *;
+
+html {
+    background-color: $secondary;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    height: 20vh;
+}
+
+main {
+    height: 70vh;
+}
+
+footer {
+    height: 10vh;
+}

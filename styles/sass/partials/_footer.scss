@@ -1,0 +1,9 @@
+@use "./variables" as *;
+
+footer {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+}

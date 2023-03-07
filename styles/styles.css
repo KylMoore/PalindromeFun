@@ -223,3 +223,69 @@ input {
 button {
   font-family: "Indie Flower", cursive, sans-serif;
 }
+
+html {
+  background-color: salmon;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  height: 20vh;
+}
+
+main {
+  height: 70vh;
+}
+
+footer {
+  height: 10vh;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+form input {
+  width: 45%;
+  text-align: center;
+  padding: 0.25rem;
+}
+form button {
+  width: 45%;
+  border: 2px solid black;
+  padding: 0.4rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+form button:hover, form button:focus {
+  background-color: purple;
+  color: white;
+}
+
+.result {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
